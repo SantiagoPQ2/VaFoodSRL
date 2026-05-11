@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans text-brand-dark bg-white antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-brand-red text-white px-6 py-3 rounded-md font-sans font-semibold text-sm tracking-wide hover:bg-brand-red-dark transition-all duration-200 shadow-sm hover:shadow-md;
+  }
+  .btn-outline {
+    @apply inline-flex items-center gap-2 border-2 border-brand-red text-brand-red px-6 py-3 rounded-md font-sans font-semibold text-sm tracking-wide hover:bg-brand-red hover:text-white transition-all duration-200;
+  }
+  .section-title {
+    @apply font-display text-3xl md:text-4xl font-bold text-brand-dark leading-tight;
+  }
+  .section-subtitle {
+    @apply text-brand-gray-mid text-lg leading-relaxed mt-4;
+  }
+  .card {
+    @apply bg-white rounded-xl shadow-card hover:shadow-card-hover transition-shadow duration-300 p-8;
+  }
+  .legal-text {
+    @apply text-brand-gray-mid text-sm leading-relaxed;
+  }
+}
+
+/* Animaciones */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease both;
+}
+.animate-delay-100 { animation-delay: 100ms; }
+.animate-delay-200 { animation-delay: 200ms; }
+.animate-delay-300 { animation-delay: 300ms; }
+.animate-delay-400 { animation-delay: 400ms; }
