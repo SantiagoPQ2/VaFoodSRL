@@ -47,7 +47,7 @@ export default function Home() {
               Soluciones <span className="text-brand-red">alimentarias</span> que mueven tu negocio
             </h1>
             <p className="text-gray-300 text-lg leading-relaxed mb-8 max-w-xl mx-auto md:mx-0">
-              {COMPANY.razonSocial} es una empresa cordobesa dedicada a la distribución y comercialización de productos alimentarios de calidad. Más de 15 años de presencia en el mercado nos avalan.
+              {COMPANY.razonSocial} es una empresa cordobesa dedicada a la distribución y comercialización de productos alimentarios de calidad. Nuestros años de presencia en el mercado nos avalan.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
               <Link to="/servicios" className="btn-primary">
