@@ -47,7 +47,7 @@ export default function Home() {
               Soluciones <span className="text-brand-red">alimentarias</span> que mueven tu negocio
             </h1>
             <p className="text-gray-300 text-lg leading-relaxed mb-8 max-w-xl mx-auto md:mx-0">
-              {COMPANY.razonSocial} es una empresa cordobesa dedicada a la distribución y comercialización de productos alimentarios de calidad. Nuestros años de presencia en el mercado nos avalan.
+              {COMPANY.razonSocial} es una empresa argentina dedicada a la distribución y comercialización de productos alimentarios de calidad. Nuestros años de presencia en el mercado nos avalan.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
               <Link to="/servicios" className="btn-primary">
@@ -62,11 +62,8 @@ export default function Home() {
           {/* Logo display */}
           <div className="flex-shrink-0 animate-fade-in-up animate-delay-200">
             <div className="bg-white rounded-2xl shadow-2xl px-12 py-10 flex flex-col items-center gap-1">
-              <div className="flex items-end">
-                <span className="font-display text-6xl font-bold text-brand-red leading-none">VA</span>
-                <span className="font-script text-6xl text-brand-dark leading-none">food</span>
-              </div>
-              <span className="text-brand-gray-mid text-xs font-sans uppercase tracking-widest">S.R.L.</span>
+              <span className="font-display text-6xl font-bold text-brand-red leading-none">Pidibro</span>
+              <span className="text-brand-gray-mid text-xs font-sans uppercase tracking-widest mt-2">S.R.L.</span>
             </div>
           </div>
         </div>
