@@ -1,7 +1,7 @@
 import { COMPANY } from "../config/company";
 
 export default function WhatsAppButton() {
-  const url = `https://wa.me/${COMPANY.whatsapp}?text=Hola%2C%20me%20comunico%20desde%20el%20sitio%20web%20de%20VA%20Food.`;
+  const url = `https://wa.me/${COMPANY.whatsapp}?text=Hola%2C%20me%20comunico%20desde%20el%20sitio%20web%20de%20Pidibro.`;
 
   return (
     <a
