@@ -12,8 +12,7 @@ export default function Footer() {
         {/* Columna 1 — Identidad */}
         <div>
           <div className="flex items-center gap-2 mb-4">
-            <span className="font-display text-2xl font-bold text-brand-red leading-none">VA</span>
-            <span className="font-script text-2xl text-white leading-none">food</span>
+            <span className="font-display text-2xl font-bold text-brand-red leading-none">Pidibro</span>
             <span className="text-xs text-gray-400 font-sans uppercase tracking-widest border-l border-gray-600 pl-2 ml-1">S.R.L.</span>
           </div>
           <p className="text-gray-400 text-sm leading-relaxed mb-3">

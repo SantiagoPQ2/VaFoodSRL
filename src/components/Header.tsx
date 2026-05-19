@@ -18,8 +18,7 @@ export default function Header() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 shrink-0" onClick={() => setOpen(false)}>
           <div className="flex items-center">
-            <span className="font-display text-2xl font-bold text-brand-red leading-none tracking-tight">VA</span>
-            <span className="font-script text-2xl text-brand-dark leading-none ml-0.5">food</span>
+            <span className="font-display text-2xl font-bold text-brand-red leading-none tracking-tight">Pidibro</span>
           </div>
           <span className="hidden sm:block text-xs text-brand-gray-mid font-sans font-normal uppercase tracking-widest border-l border-gray-200 pl-3">
             S.R.L.
