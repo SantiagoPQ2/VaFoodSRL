@@ -75,7 +75,7 @@ export default function Terms() {
 
           <h2 className="font-display text-xl font-bold text-brand-dark mt-8 mb-3">9. Jurisdicción y legislación aplicable</h2>
           <p className="text-brand-gray-mid leading-relaxed mb-4">
-            Los presentes Términos y Condiciones se rigen por las leyes de la <strong>República Argentina</strong>. Ante cualquier conflicto o controversia derivada del uso del Sitio, las partes se someten expresamente a la jurisdicción de los <strong>Tribunales Ordinarios de la Ciudad de Córdoba</strong>, con renuncia expresa a cualquier otro fuero que pudiera corresponder.
+            Los presentes Términos y Condiciones se rigen por las leyes de la <strong>República Argentina</strong>. Ante cualquier conflicto o controversia derivada del uso del Sitio, las partes se someten expresamente a la jurisdicción de los <strong>Tribunales Ordinarios de la Ciudad Autónoma de Buenos Aires</strong>, con renuncia expresa a cualquier otro fuero que pudiera corresponder.
           </p>
 
           <h2 className="font-display text-xl font-bold text-brand-dark mt-8 mb-3">10. Contacto legal</h2>

@@ -15,7 +15,7 @@ export default function About() {
       <PageHero
         accent="Quiénes somos"
         title="Una empresa argentina con historia"
-        subtitle={`${COMPANY.razonSocial} lleva más de 15 años conectando a productores y comercios en el mercado alimentario de Córdoba y el interior del país.`}
+        subtitle={`${COMPANY.razonSocial} lleva más de 15 años conectando a productores y comercios en el mercado alimentario de Buenos Aires y el interior del país.`}
       />
 
       <section className="py-20 px-4 bg-white">
@@ -24,10 +24,10 @@ export default function About() {
             <span className="inline-block text-brand-red font-sans font-semibold text-xs uppercase tracking-widest mb-3">Nuestra historia</span>
             <h2 className="section-title mb-4">Más de una década de presencia en el mercado</h2>
             <p className="text-brand-gray-mid leading-relaxed mb-4">
-              Desde nuestra fundación, {COMPANY.razonSocial} ha crecido de la mano de la industria alimentaria argentina. Comenzamos como una pequeña distribuidora regional y hoy somos un referente en la provincia de Córdoba.
+              Desde nuestra fundación, {COMPANY.razonSocial} ha crecido de la mano de la industria alimentaria argentina. Comenzamos como una pequeña distribuidora regional y hoy somos un referente en Buenos Aires y el resto del país.
             </p>
             <p className="text-brand-gray-mid leading-relaxed mb-4">
-              Operamos desde nuestras instalaciones en el Parque Pyme de Villa Allende, lo que nos permite mantener una logística eficiente y un servicio personalizado para cada uno de nuestros clientes.
+              Operamos desde nuestras instalaciones en Ciudad Autónoma de Buenos Aires, lo que nos permite mantener una logística eficiente y un servicio personalizado para cada uno de nuestros clientes.
             </p>
             <p className="text-brand-gray-mid leading-relaxed">
               Nuestro equipo humano es el pilar de esta empresa. Profesionales con vocación de servicio y conocimiento profundo del sector alimentario trabajan diariamente para satisfacer las necesidades de cada cliente.

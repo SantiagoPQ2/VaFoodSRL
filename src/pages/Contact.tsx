@@ -32,7 +32,7 @@ export default function Contact() {
     }, 800);
   }
 
-  const waUrl = `https://wa.me/${COMPANY.whatsapp}?text=Hola%2C%20me%20comunico%20desde%20el%20sitio%20web%20de%20VA%20Food.%20Quisiera%20obtener%20m%C3%A1s%20informaci%C3%B3n.`;
+  const waUrl = `https://wa.me/${COMPANY.whatsapp}?text=Hola%2C%20me%20comunico%20desde%20el%20sitio%20web%20de%20Pidibro.%20Quisiera%20obtener%20m%C3%A1s%20informaci%C3%B3n.`;
 
   return (
     <>

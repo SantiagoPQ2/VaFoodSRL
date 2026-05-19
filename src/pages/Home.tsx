@@ -41,7 +41,7 @@ export default function Home() {
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-24 md:py-32 flex flex-col md:flex-row items-center gap-12">
           <div className="flex-1 text-center md:text-left animate-fade-in-up">
             <span className="inline-block text-brand-red font-sans font-semibold text-xs uppercase tracking-widest mb-4">
-              Córdoba · Argentina
+              Buenos Aires · Argentina
             </span>
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
               Soluciones <span className="text-brand-red">alimentarias</span> que mueven tu negocio
@@ -91,7 +91,7 @@ export default function Home() {
             <span className="inline-block text-brand-red font-sans font-semibold text-xs uppercase tracking-widest mb-3">Por qué elegirnos</span>
             <h2 className="section-title">Comprometidos con tu negocio</h2>
             <p className="section-subtitle max-w-2xl mx-auto">
-              En VA Food trabajamos cada día para ser el socio comercial confiable que su empresa necesita.
+              En Pidibro trabajamos cada día para ser el socio comercial confiable que su empresa necesita.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
